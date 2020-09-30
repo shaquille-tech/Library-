@@ -1,10 +1,15 @@
 package Main;
 
+import Library.Items;
+import Library.Magazine;
+
 public class Runner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Items Magazine1 = new Magazine ("Vogue", 1, "Ralph")
+		
+				
 	}
 
 }

@@ -2,10 +2,15 @@ package Library;
 
 public class Book extends Items {
 	
-	String Authour;
+	//Variables 
+	String Author;
+	String Genre;
 	
-	public Book (int ID, String) {
-		super(); 
+	//Constructor
+	public Book (String Name,int ID, String Author, String Genre ) {
+		super(Name, ID); 
+		this.Author = Author;
+		this.Genre = Genre;
 		
 	}
 	
